@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8d0d38-692f-4f1a-8ed0-77568e8906c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ChatterM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ChatterM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/App0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Chatter0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Cli0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Message0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Serv0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +39,8 @@
       <file leaf-file-name="Chatter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Chatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="182">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -79,8 +84,8 @@
       <file leaf-file-name="MultiApka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/MultiApka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +109,8 @@
       <file leaf-file-name="ServerMulti.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ServerMulti.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="302">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
@@ -114,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientMulti.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientMulti.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ClientMulti.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="-78">
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
@@ -130,12 +135,78 @@
       <file leaf-file-name="MessageM.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/MessageM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="302">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
                 <element signature="e#627#628#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App0.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/App0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Message0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chatter0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Chatter0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serv0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Serv0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cli0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Cli0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,6 +244,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ClientMulti.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ServerMulti.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ChatterM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/App0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Message0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Serv0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Cli0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Chatter0.java" />
       </list>
     </option>
   </component>
@@ -250,7 +326,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="networkSerialization" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatWithObj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiApka">
+  <component name="RunManager" selected="Application.App0">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.networkSerialization.App" />
       <module name="netchat" />
@@ -290,6 +366,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.networkSerialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.networkSerialization.ChatWithObj.App0" />
+      <module name="netchat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.networkSerialization.ChatWithObj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,17 +394,6 @@
     </configuration>
     <configuration name="DemoS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.networkSerialization.MultiApp.DemoS" />
-      <module name="netchat" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.networkSerialization.MultiApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MessageM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.networkSerialization.MultiApp.MessageM" />
       <module name="netchat" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -382,17 +458,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.MultiApka" />
-      <item itemvalue="Application.MessageM" />
       <item itemvalue="Application.DemoS" />
       <item itemvalue="Application.DemoC" />
+      <item itemvalue="Application.App0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App0" />
         <item itemvalue="Application.MultiApka" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.DemoC" />
         <item itemvalue="Application.DemoS" />
-        <item itemvalue="Application.MessageM" />
       </list>
     </recent_temporary>
   </component>
@@ -409,12 +485,12 @@
       <workItem from="1551114030124" duration="9124000" />
       <workItem from="1551189170965" duration="16280000" />
       <workItem from="1551274422325" duration="24644000" />
-      <workItem from="1551368178995" duration="11109000" />
+      <workItem from="1551368178995" duration="15741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61157000" />
+    <option name="totallyTimeSpent" value="65789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="742" extended-state="6" />
@@ -669,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/MessageM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="302">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
@@ -679,34 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/MultiApka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Chatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,13 +775,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/MultiApka.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Cli0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Serv0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/Chatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -746,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ServerMulti.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="302">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
@@ -757,11 +857,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/MultiApp/ClientMulti.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="-78">
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Chatter0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/Message0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/networkSerialization/ChatWithObj/App0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
