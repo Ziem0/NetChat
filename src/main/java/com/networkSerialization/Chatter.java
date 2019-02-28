@@ -15,28 +15,29 @@ public abstract class Chatter {
 
 	void chat(Socket client) throws IOException, ClassNotFoundException {
 
+		//streamy powinny byc w try()
 		//write to client
-		ObjectOutputStream oos = new ObjectOutputStream(client.getOutputStream());
+		ObjectOutputStream output = new ObjectOutputStream(client.getOutputStream());
 		// read from client
-		ObjectInputStream ois = new ObjectInputStream(client.getInputStream());
+		ObjectInputStream in = new ObjectInputStream(client.getInputStream());
 
 		System.out.println("Connection established");
 
 		while (true) {
-			if (ois.available() > 0) {
-				if (ois.read() == 2) {
-					Message input = (Message) ois.readObject();
+			if (in.available() > 0) {
+				if (in.read() == 2) {
+					Message input = (Message) in.readObject();
 					System.out.println(input);
 				}
 			}
 
 			if (stdin.ready()) {
-				oos.reset();
-				oos.write(2);
+				output.reset();
+				output.write(2);
 				Message message = new Message(stdin.readLine(), name);
-				oos.writeObject(message);
+				output.writeObject(message);
 			} else {
-				oos.write(1);
+				output.write(1);
 			}
 		}
 

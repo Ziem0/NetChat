@@ -3,16 +3,18 @@ package com.networkSerialization;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class App {
 
 	public static void main(String[] args) throws IOException {
 
-		switch (args[0]) {
-			case "server":
+//		switch (args[0]) {
+		switch (new Scanner(System.in).nextLine()) {
+			case "s":
 				new Server(getName()).start(9000);
 				break;
-			case "client":
+			case "c":
 				new Client(getName()).start("localhost", 9000);
 				break;
 		}
