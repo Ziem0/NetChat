@@ -9,10 +9,10 @@ public class App0 {
 	public static void main(String[] args) throws IOException {
 		switch (getMode()) {
 			case "s":
-				new Serv0("ziemo").start();
+				new Serv0(getMode()).start();
 				break;
 			case "c":
-				new Cli0("ania").start();
+				new Cli0(getMode()).start();
 				break;
 		}
 	}
